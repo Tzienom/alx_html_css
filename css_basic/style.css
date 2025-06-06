@@ -5,6 +5,7 @@ main {
 
 body {
   flex-direction: column;
+  line-height: 1.6;
 }
 
 main {
@@ -14,6 +15,7 @@ main {
 
 article {
   flex: 2;
+  padding: 2em;
 }
 
 aside {
@@ -24,4 +26,17 @@ aside {
 article,
 aside {
   overflow-y: auto;
+}
+
+.name-para {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin: 2rem 0 1rem;
+}
+
+img {
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
