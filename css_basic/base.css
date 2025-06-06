@@ -9,7 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: "#0a0a23";
-  /* background: #bdbdec; */
+  min-height: 100vh;
 }
 
 h1,
@@ -39,6 +39,7 @@ header {
   position: sticky;
   top: 0;
   backdrop-filter: blur(5px);
+  box-shadow: 0 1px 5px #d3d3d3;
 }
 
 header ul {
