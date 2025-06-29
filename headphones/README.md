@@ -7,48 +7,49 @@ behaviours.
 
 ## Table of Content
 
--   [Project Overview](#project-overview)
--   [Features](#features)
--   [Technologies Used](#technologies-used)
--   [Setup Instructions](#setup-instructions)
--   [JavaScript Interactions](#javascript-interactions)
--   [Author](#author)
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [JavaScript Interactions](#javascript-interactions)
+- [Acknowledgement](#acknowledgement)
+- [Author](#author)
 
 ## Project Overview
 
 Gabriel's Headphones is a mock brand designed to showcase a landing page with immersive visuals, smooth navigation, and
 animated features. This project focuses on:
 
--   Clean UI with visual hierarchy
--   Scroll-based animations
--   Desktop-first responsiveness
--   Elegant content presentation
--   Practical DOM interaction
+- Clean UI with visual hierarchy
+- Scroll-based animations
+- Desktop-first responsiveness
+- Elegant content presentation
+- Practical DOM interaction
 
 ## Features
 
--   **Fixed and scroll-reactive Navbar:** Changes background upon scrolling.
--   **Mobile Navigation Toggle:** Smoothly opens and closes, whilst dynamically calculating and adding space between the
-    navigationa and hero content&mdash;to avoid overlap.
--   **Responsive Hero Section:** Prominent title, subtitle, CTA button, and eloquent description.
--   **Features Section:** Four animated features with custom icons and fade-in effects.
--   **Results Section:** Background with stats inside decorative pentagons.
--   **Contact Form:** Floating label inputs with validation and polished UI.
--   **Scroll-triggered Animations:** Elements fade and rise as they enter the viewport.
+- **Fixed and scroll-reactive Navbar:** Changes background upon scrolling.
+- **Mobile Navigation Toggle:** Smoothly opens and closes, whilst dynamically calculating and adding space between the
+  navigationa and hero content&mdash;to avoid overlap.
+- **Responsive Hero Section:** Prominent title, subtitle, CTA button, and eloquent description.
+- **Features Section:** Four animated features with custom icons and fade-in effects.
+- **Results Section:** Background with stats inside decorative pentagons.
+- **Contact Form:** Floating label inputs with validation and polished UI.
+- **Scroll-triggered Animations:** Elements fade and rise as they enter the viewport.
 
 ## Technologies Used
 
--   **HTML5** - Semantic markup
--   **CSS3** - Flexbox, Grid, Animations, Media Queries
--   **JavaScript (Vanilla)** - DOM manipulation and event listeners
--   **Font Awesome & IcoMoon** - Icons
+- **HTML5** - Semantic markup
+- **CSS3** - Flexbox, Grid, Animations, Media Queries
+- **JavaScript (Vanilla)** - DOM manipulation and event listeners
+- **Font Awesome & IcoMoon** - Icons
 
 ## Setup Instructions
 
 1. **Clone the repository:**
 
 ```
-git clone https://github.com/Tzienom/headphones-landing-page.git
+git clone https://github.com/Tzienom/alx_html_css.git
 ```
 
 2. **Open the project:**
@@ -61,12 +62,12 @@ cd headphones-landing-page
 
 ## JavaScript Interactions
 
--   **Navbar Scroll Background**
-    -   Adds `.scrolled` class when the navbar begins scrolling.
--   **Mobile Menu Toggle**
-    -   Opens on clicking the hamburger icon
-    -   Closes on clicking the `X` icon or any link
--   **Dynamic Padding Fix** - Calculates navbar height and pushes hero content using paddingTop
+- **Navbar Scroll Background**
+  - Adds `.scrolled` class when the navbar begins scrolling.
+- **Mobile Menu Toggle**
+  - Opens on clicking the hamburger icon
+  - Closes on clicking the `X` icon or any link
+- **Dynamic Padding Fix** - Calculates navbar height and pushes hero content using paddingTop
 
 ```
 window.addEventListener("DOMContentLoaded", () => {
@@ -78,6 +79,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
     });
 ```
+
+## Acknowledgement
+
+- Inspired by the ALX Front-End Web Development programme
+- Original webpage designed by Nicolas Philippot, UI/UX designer
 
 ## Author
 
