@@ -1,0 +1,52 @@
+/*
+.pentagon {
+    transition: transform 0.4s ease;
+}
+
+.pentagon:hover {
+    transform: rotate(15deg);
+}
+
+.contact-box {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.contact-input {}
+*/
+
+/*
+.contact-box {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 1.2rem 0.75rem 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: none;
+    color: #000;
+    outline: none;
+}
+
+.contact-label {
+    position: absolute;
+    top: 1.2rem;
+    left: 0.75rem;
+    font-size: 1rem;
+    color: #666;
+    pointer-events: none;
+    transition: all 0.25s ease;
+}
+
+ When input is focused or has content 
+.contact-input:focus + .contact-label,
+.contact-input:valid + .contact-label {
+    top: 0.1rem;
+    font-size: 0.75rem;
+    color: #222;
+}
+*/
