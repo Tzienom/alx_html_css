@@ -5,6 +5,8 @@ elegance, and soul. This responsive, accessible, and beautifully animated page i
 JavaScript. It is designed to function gracefully across all devices, with custom animations and mobile-specific
 behaviours.
 
+See the live site: [Headphones](https://gabs-headphones.vercel.app)
+
 ## Table of Content
 
 - [Project Overview](#project-overview)
